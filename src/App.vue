@@ -73,6 +73,7 @@ export default {
       this.model = new OpenAI({
         openAIApiKey: this.openAIKey,
         temperature: 0.7,
+        modelName: 'gpt-4o'
       });
     },
 
